@@ -1,0 +1,33 @@
+[0.270s] Invoking command in '/home/uas/Documents/blue/git repos/xplane_ros2/src/xplaneros2': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/prefix_override:/home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/xplaneros2 build --build-base /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build install --record /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/install.log --single-version-externally-managed install_data
+[0.373s] running egg_info
+[0.373s] creating ../../build/xplaneros2/xplaneros2.egg-info
+[0.373s] writing ../../build/xplaneros2/xplaneros2.egg-info/PKG-INFO
+[0.374s] writing dependency_links to ../../build/xplaneros2/xplaneros2.egg-info/dependency_links.txt
+[0.374s] writing entry points to ../../build/xplaneros2/xplaneros2.egg-info/entry_points.txt
+[0.374s] writing requirements to ../../build/xplaneros2/xplaneros2.egg-info/requires.txt
+[0.374s] writing top-level names to ../../build/xplaneros2/xplaneros2.egg-info/top_level.txt
+[0.374s] writing manifest file '../../build/xplaneros2/xplaneros2.egg-info/SOURCES.txt'
+[0.374s] reading manifest file '../../build/xplaneros2/xplaneros2.egg-info/SOURCES.txt'
+[0.375s] writing manifest file '../../build/xplaneros2/xplaneros2.egg-info/SOURCES.txt'
+[0.375s] running build
+[0.375s] running build_py
+[0.375s] creating /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build
+[0.375s] creating /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build/lib
+[0.375s] creating /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build/lib/xplaneros2
+[0.375s] copying xplaneros2/__init__.py -> /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build/lib/xplaneros2
+[0.375s] running install
+[0.375s] running install_lib
+[0.375s] creating /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages/xplaneros2
+[0.375s] copying /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build/lib/xplaneros2/__init__.py -> /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages/xplaneros2
+[0.376s] byte-compiling /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages/xplaneros2/__init__.py to __init__.cpython-310.pyc
+[0.376s] running install_data
+[0.376s] creating /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/share/ament_index
+[0.376s] creating /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/share/ament_index/resource_index
+[0.376s] creating /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/share/ament_index/resource_index/packages
+[0.376s] copying resource/xplaneros2 -> /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/share/ament_index/resource_index/packages
+[0.376s] copying package.xml -> /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/share/xplaneros2
+[0.376s] running install_egg_info
+[0.377s] Copying ../../build/xplaneros2/xplaneros2.egg-info to /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages/xplaneros2-0.0.0-py3.10.egg-info
+[0.377s] running install_scripts
+[0.387s] writing list of installed files to '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/install.log'
+[0.398s] Invoked command in '/home/uas/Documents/blue/git repos/xplane_ros2/src/xplaneros2' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/prefix_override:/home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/xplaneros2 build --build-base /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build install --record /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/install.log --single-version-externally-managed install_data
