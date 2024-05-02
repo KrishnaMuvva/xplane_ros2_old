@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces -- -j24 -l24
+[0.152s] Invoked command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces -- -j24 -l24
+[0.166s] Invoking command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces
+[0.168s] -- Install configuration: ""
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/ament_index/resource_index/package_run_dependencies/xplane_interfaces
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/ament_index/resource_index/parent_prefix_path/xplane_interfaces
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/environment/ament_prefix_path.sh
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/environment/ament_prefix_path.dsv
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/environment/path.sh
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/environment/path.dsv
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/local_setup.bash
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/local_setup.sh
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/local_setup.zsh
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/local_setup.dsv
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/package.dsv
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/ament_index/resource_index/packages/xplane_interfaces
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/cmake/xplane_interfacesConfig.cmake
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/cmake/xplane_interfacesConfig-version.cmake
+[0.168s] -- Up-to-date: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/package.xml
+[0.169s] Invoked command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces

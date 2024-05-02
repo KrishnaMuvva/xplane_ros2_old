@@ -1,0 +1,19 @@
+[0.333s] Invoking command in '/home/uas/Documents/blue/git repos/xplane_ros2/src/xplaneros2': CONDA_PROMPT_MODIFIER=(fuas) PYTHONPATH=/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/prefix_override:/home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/xplaneros2 build --build-base /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build install --record /home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/install.log --single-version-externally-managed install_data
+[0.465s] running egg_info
+[0.465s] writing ../../build/xplaneros2/xplaneros2.egg-info/PKG-INFO
+[0.465s] writing dependency_links to ../../build/xplaneros2/xplaneros2.egg-info/dependency_links.txt
+[0.465s] writing entry points to ../../build/xplaneros2/xplaneros2.egg-info/entry_points.txt
+[0.465s] writing requirements to ../../build/xplaneros2/xplaneros2.egg-info/requires.txt
+[0.465s] writing top-level names to ../../build/xplaneros2/xplaneros2.egg-info/top_level.txt
+[0.466s] reading manifest file '../../build/xplaneros2/xplaneros2.egg-info/SOURCES.txt'
+[0.467s] writing manifest file '../../build/xplaneros2/xplaneros2.egg-info/SOURCES.txt'
+[0.467s] running build
+[0.467s] running build_py
+[0.467s] running install
+[0.467s] running install_lib
+[0.468s] running install_data
+[0.468s] running install_egg_info
+[0.469s] removing '/home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages/xplaneros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.469s] Copying ../../build/xplaneros2/xplaneros2.egg-info to /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages/xplaneros2-0.0.0-py3.10.egg-info
+[0.469s] running install_scripts
+[0.482s] writing list of installed files to '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/install.log'

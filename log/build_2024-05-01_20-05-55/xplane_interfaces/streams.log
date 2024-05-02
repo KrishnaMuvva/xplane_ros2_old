@@ -1,0 +1,9 @@
+[0.006s] Invoking command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces': /usr/bin/cmake --build /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces -- -j24 -l24
+[0.012s] [0mCMake Error: Could not find CMAKE_ROOT !!!
+[0.013s] CMake has most likely not been installed correctly.
+[0.013s] Modules directory not found in
+[0.013s] /usr/share/cmake-3.29[0m
+[0.013s] [0mCMake Error: Error executing cmake::LoadCache(). Aborting.
+[0.013s] [0m
+[0.013s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.126s] Invoked command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces' returned '2': /usr/bin/cmake --build /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces -- -j24 -l24

@@ -1,0 +1,7 @@
+[0mCMake Error: Could not find CMAKE_ROOT !!!
+CMake has most likely not been installed correctly.
+Modules directory not found in
+/usr/share/cmake-3.29[0m
+[0mCMake Error: Error executing cmake::LoadCache(). Aborting.
+[0m
+gmake: *** [Makefile:963: cmake_check_build_system] Error 1

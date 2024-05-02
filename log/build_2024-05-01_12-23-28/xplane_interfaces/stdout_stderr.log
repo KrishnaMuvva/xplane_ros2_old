@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces
+-- Install configuration: ""
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/ament_index/resource_index/package_run_dependencies/xplane_interfaces
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/ament_index/resource_index/parent_prefix_path/xplane_interfaces
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/environment/path.sh
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/environment/path.dsv
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/local_setup.bash
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/local_setup.sh
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/local_setup.zsh
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/local_setup.dsv
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/package.dsv
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/ament_index/resource_index/packages/xplane_interfaces
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/cmake/xplane_interfacesConfig.cmake
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/cmake/xplane_interfacesConfig-version.cmake
+-- Installing: /home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces/share/xplane_interfaces/package.xml

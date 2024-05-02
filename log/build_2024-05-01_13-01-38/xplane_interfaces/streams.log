@@ -1,0 +1,72 @@
+[0.008s] Invoking command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces -- -j24 -l24
+[0.018s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.151s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.171s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.177s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.237s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.433s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.438s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.618s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.618s]   execute_process(/home/uas/anaconda3/bin/python3 -m rosidl_adapter
+[0.618s]   --package-name xplane_interfaces --arguments-file
+[0.618s]   /home/uas/Documents/blue/git
+[0.618s]   repos/xplane_ros2/build/xplane_interfaces/rosidl_adapter__arguments__xplane_interfaces.json
+[0.618s]   --output-dir /home/uas/Documents/blue/git
+[0.618s]   repos/xplane_ros2/build/xplane_interfaces/rosidl_adapter/xplane_interfaces
+[0.618s]   --output-file /home/uas/Documents/blue/git
+[0.618s]   repos/xplane_ros2/build/xplane_interfaces/rosidl_adapter/xplane_interfaces.idls)
+[0.618s]   returned error code 1:
+[0.618s] 
+[0.618s]   AttributeError processing template 'msg.idl.em'
+[0.618s] 
+[0.618s]   Traceback (most recent call last):
+[0.618s] 
+[0.618s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+[0.618s]       em.BUFFERED_OPT: True,
+[0.618s]       ^^^^^^^^^^^^^^^
+[0.618s] 
+[0.618s]   AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.618s] 
+[0.618s] 
+[0.618s] 
+[0.619s]   During handling of the above exception, another exception occurred:
+[0.619s] 
+[0.619s] 
+[0.619s] 
+[0.619s]   Traceback (most recent call last):
+[0.619s] 
+[0.619s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.619s]     File "<frozen runpy>", line 88, in _run_code
+[0.619s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.619s]       sys.exit(main())
+[0.619s]                ^^^^^^
+[0.619s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.619s]       abs_idl_file = convert_to_idl(
+[0.619s]                      ^^^^^^^^^^^^^^^
+[0.619s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.619s]       return convert_msg_to_idl(
+[0.619s]              ^^^^^^^^^^^^^^^^^^^
+[0.619s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl
+[0.619s]       expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')
+[0.619s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+[0.619s]       content = evaluate_template(template_name, data)
+[0.619s]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.619s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+[0.619s]       _interpreter.shutdown()
+[0.619s]       ^^^^^^^^^^^^^^^^^^^^^
+[0.619s] 
+[0.619s]   AttributeError: 'NoneType' object has no attribute 'shutdown'
+[0.619s] 
+[0.619s] Call Stack (most recent call first):
+[0.619s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.619s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[0.619s] 
+[0.619s] [0m
+[0.619s] -- Configuring incomplete, errors occurred!
+[0.623s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.625s] Invoked command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces -- -j24 -l24

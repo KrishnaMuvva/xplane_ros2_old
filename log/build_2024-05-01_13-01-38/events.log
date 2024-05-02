@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (xplane_interfaces) JobQueued: {'identifier': 'xplane_interfaces', 'dependencies': OrderedDict()}
+[0.000153] (xplaneros2) JobQueued: {'identifier': 'xplaneros2', 'dependencies': OrderedDict()}
+[0.000165] (xplane_interfaces) JobStarted: {'identifier': 'xplane_interfaces'}
+[0.003162] (xplaneros2) JobStarted: {'identifier': 'xplaneros2'}
+[0.006292] (xplane_interfaces) JobProgress: {'identifier': 'xplane_interfaces', 'progress': 'cmake'}
+[0.006532] (xplane_interfaces) JobProgress: {'identifier': 'xplane_interfaces', 'progress': 'build'}
+[0.006978] (xplane_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces', '--', '-j24', '-l24'], 'cwd': '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'uas'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uas'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2060'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=07ade7191408dc33933919f5663277c8'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'uas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/uas/anaconda3/bin:/home/uas/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/uas-Precision-7670:@/tmp/.ICE-unix/2060,unix/uas-Precision-7670:/tmp/.ICE-unix/2060'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4ff40b0_1707_489c_be2e_12c0ad4211ba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/uas/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/uas/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/uas/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=07ade7191408dc33933919f5663277c8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/uas/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.018122] (xplane_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099616] (-) TimerEvent: {}
+[0.150962] (xplane_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.171023] (xplane_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.172707] (xplane_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.176864] (xplane_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.184411] (xplane_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.195231] (xplane_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199754] (-) TimerEvent: {}
+[0.236520] (xplane_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.237460] (xplane_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299918] (-) TimerEvent: {}
+[0.320165] (xplane_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.336683] (xplaneros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/xplaneros2', 'build', '--build-base', '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/build', 'install', '--record', '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/uas/Documents/blue/git repos/xplane_ros2/src/xplaneros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'uas', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/uas', 'CONDA_SHLVL': '1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2060', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=07ade7191408dc33933919f5663277c8', 'COLORTERM': 'truecolor', '_CE_M': '', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'uas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'uas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/uas/anaconda3/bin:/home/uas/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/uas-Precision-7670:@/tmp/.ICE-unix/2060,unix/uas-Precision-7670:/tmp/.ICE-unix/2060', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a4ff40b0_1707_489c_be2e_12c0ad4211ba', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.89', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/uas/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/uas/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/uas/anaconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=07ade7191408dc33933919f5663277c8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/prefix_override:/home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/uas/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.400066] (-) TimerEvent: {}
+[0.433143] (xplane_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.437756] (xplane_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.468103] (xplaneros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.468626] (xplaneros2) StdoutLine: {'line': b'writing ../../build/xplaneros2/xplaneros2.egg-info/PKG-INFO\n'}
+[0.468839] (xplaneros2) StdoutLine: {'line': b'writing dependency_links to ../../build/xplaneros2/xplaneros2.egg-info/dependency_links.txt\n'}
+[0.468922] (xplaneros2) StdoutLine: {'line': b'writing entry points to ../../build/xplaneros2/xplaneros2.egg-info/entry_points.txt\n'}
+[0.468962] (xplaneros2) StdoutLine: {'line': b'writing requirements to ../../build/xplaneros2/xplaneros2.egg-info/requires.txt\n'}
+[0.468994] (xplaneros2) StdoutLine: {'line': b'writing top-level names to ../../build/xplaneros2/xplaneros2.egg-info/top_level.txt\n'}
+[0.469981] (xplaneros2) StdoutLine: {'line': b"reading manifest file '../../build/xplaneros2/xplaneros2.egg-info/SOURCES.txt'\n"}
+[0.470475] (xplaneros2) StdoutLine: {'line': b"writing manifest file '../../build/xplaneros2/xplaneros2.egg-info/SOURCES.txt'\n"}
+[0.470563] (xplaneros2) StdoutLine: {'line': b'running build\n'}
+[0.470602] (xplaneros2) StdoutLine: {'line': b'running build_py\n'}
+[0.470789] (xplaneros2) StdoutLine: {'line': b'running install\n'}
+[0.470863] (xplaneros2) StdoutLine: {'line': b'running install_lib\n'}
+[0.471473] (xplaneros2) StdoutLine: {'line': b'running install_data\n'}
+[0.471547] (xplaneros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.472574] (xplaneros2) StdoutLine: {'line': b"removing '/home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages/xplaneros2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.472689] (xplaneros2) StdoutLine: {'line': b'Copying ../../build/xplaneros2/xplaneros2.egg-info to /home/uas/Documents/blue/git repos/xplane_ros2/install/xplaneros2/lib/python3.10/site-packages/xplaneros2-0.0.0-py3.10.egg-info\n'}
+[0.472999] (xplaneros2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.486005] (xplaneros2) StdoutLine: {'line': b"writing list of installed files to '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplaneros2/install.log'\n"}
+[0.499619] (xplaneros2) CommandEnded: {'returncode': 0}
+[0.500133] (-) TimerEvent: {}
+[0.505312] (xplaneros2) JobEnded: {'identifier': 'xplaneros2', 'rc': 0}
+[0.600379] (-) TimerEvent: {}
+[0.617783] (xplane_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.618016] (xplane_interfaces) StderrLine: {'line': b'  execute_process(/home/uas/anaconda3/bin/python3 -m rosidl_adapter\n'}
+[0.618064] (xplane_interfaces) StderrLine: {'line': b'  --package-name xplane_interfaces --arguments-file\n'}
+[0.618097] (xplane_interfaces) StderrLine: {'line': b'  /home/uas/Documents/blue/git\n'}
+[0.618127] (xplane_interfaces) StderrLine: {'line': b'  repos/xplane_ros2/build/xplane_interfaces/rosidl_adapter__arguments__xplane_interfaces.json\n'}
+[0.618158] (xplane_interfaces) StderrLine: {'line': b'  --output-dir /home/uas/Documents/blue/git\n'}
+[0.618190] (xplane_interfaces) StderrLine: {'line': b'  repos/xplane_ros2/build/xplane_interfaces/rosidl_adapter/xplane_interfaces\n'}
+[0.618219] (xplane_interfaces) StderrLine: {'line': b'  --output-file /home/uas/Documents/blue/git\n'}
+[0.618247] (xplane_interfaces) StderrLine: {'line': b'  repos/xplane_ros2/build/xplane_interfaces/rosidl_adapter/xplane_interfaces.idls)\n'}
+[0.618275] (xplane_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.618304] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618331] (xplane_interfaces) StderrLine: {'line': b"  AttributeError processing template 'msg.idl.em'\n"}
+[0.618358] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618385] (xplane_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.618412] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618439] (xplane_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template\n'}
+[0.618467] (xplane_interfaces) StderrLine: {'line': b'      em.BUFFERED_OPT: True,\n'}
+[0.618494] (xplane_interfaces) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^\n'}
+[0.618521] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618547] (xplane_interfaces) StderrLine: {'line': b"  AttributeError: module 'em' has no attribute 'BUFFERED_OPT'\n"}
+[0.618578] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618604] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618630] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618656] (xplane_interfaces) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[0.618685] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618713] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618742] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618769] (xplane_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.618795] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.618820] (xplane_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[0.618847] (xplane_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[0.618872] (xplane_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.618897] (xplane_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.618923] (xplane_interfaces) StderrLine: {'line': b'               ^^^^^^\n'}
+[0.618947] (xplane_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.618973] (xplane_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.618999] (xplane_interfaces) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[0.619025] (xplane_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.619050] (xplane_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.619075] (xplane_interfaces) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[0.619100] (xplane_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl\n'}
+[0.619125] (xplane_interfaces) StderrLine: {'line': b"      expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')\n"}
+[0.619151] (xplane_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template\n'}
+[0.619176] (xplane_interfaces) StderrLine: {'line': b'      content = evaluate_template(template_name, data)\n'}
+[0.619201] (xplane_interfaces) StderrLine: {'line': b'                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.619226] (xplane_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template\n'}
+[0.619251] (xplane_interfaces) StderrLine: {'line': b'      _interpreter.shutdown()\n'}
+[0.619280] (xplane_interfaces) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.619306] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.619332] (xplane_interfaces) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'shutdown'\n"}
+[0.619357] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.619381] (xplane_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.619405] (xplane_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.619431] (xplane_interfaces) StderrLine: {'line': b'  CMakeLists.txt:29 (rosidl_generate_interfaces)\n'}
+[0.619456] (xplane_interfaces) StderrLine: {'line': b'\n'}
+[0.619480] (xplane_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.619506] (xplane_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.622999] (xplane_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[0.624627] (xplane_interfaces) CommandEnded: {'returncode': 2}
+[0.639977] (xplane_interfaces) JobEnded: {'identifier': 'xplane_interfaces', 'rc': 2}
+[0.650882] (-) EventReactorShutdown: {}

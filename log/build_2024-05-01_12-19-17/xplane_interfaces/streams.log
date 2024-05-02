@@ -1,0 +1,23 @@
+[0.007s] Invoking command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(fuas) /usr/bin/cmake /home/uas/Documents/blue/git repos/xplane_ros2/src/xplane_interfaces -DCMAKE_INSTALL_PREFIX=/home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces
+[0.014s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.150s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.166s] Traceback (most recent call last):
+[0.166s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.166s]     from catkin_pkg.package import parse_package_string
+[0.166s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.168s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.168s]   execute_process(/home/uas/anaconda3/bin/python3
+[0.168s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.168s]   /home/uas/Documents/blue/git
+[0.168s]   repos/xplane_ros2/src/xplane_interfaces/package.xml
+[0.168s]   /home/uas/Documents/blue/git
+[0.168s]   repos/xplane_ros2/build/xplane_interfaces/ament_cmake_core/package.cmake)
+[0.168s]   returned error code 1
+[0.168s] Call Stack (most recent call first):
+[0.168s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.169s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.169s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.169s] 
+[0.169s] [0m
+[0.169s] -- Configuring incomplete, errors occurred!
+[0.171s] Invoked command in '/home/uas/Documents/blue/git repos/xplane_ros2/build/xplane_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(fuas) /usr/bin/cmake /home/uas/Documents/blue/git repos/xplane_ros2/src/xplane_interfaces -DCMAKE_INSTALL_PREFIX=/home/uas/Documents/blue/git repos/xplane_ros2/install/xplane_interfaces
